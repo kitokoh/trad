@@ -1,0 +1,91 @@
+{
+    "$schema": "https://schema.freqtrade.io/schema.json",
+    "bot_name": "freqtrade",
+    "initial_state": "running",
+    "strategy": "HybridAdvancedStrategy",
+    "db_url": "sqlite:///user_data/tradesv3.sqlite",
+    "max_open_trades": 2,
+    "stake_currency": "USDT",
+    "stake_amount": 50,
+    "tradable_balance_ratio": 0.99,
+    "fiat_display_currency": "USD",
+    "dry_run": true,
+    "dry_run_wallet": 1000,
+    "cancel_open_orders_on_exit": true,
+    "trading_mode": "futures",
+    "margin_mode": "isolated",
+  
+    "unfilledtimeout": {
+      "entry": 10,
+      "exit": 10,
+      "exit_timeout_count": 0,
+      "unit": "minutes"
+    },
+  
+    "entry_pricing": {
+      "price_side": "same",
+      "use_order_book": true,
+      "order_book_top": 1,
+      "price_last_balance": 0.0,
+      "check_depth_of_market": {
+        "enabled": false,
+        "bids_to_ask_delta": 1
+      }
+    },
+  
+    "exit_pricing": {
+      "price_side": "same",
+      "use_order_book": true,
+      "order_book_top": 1
+    },
+  
+    "exchange": {
+      "name": "binance",
+      "key": "",
+      "secret": "",
+      "ccxt_config": {},
+      "ccxt_async_config": {},
+      "pair_whitelist": [
+        "BTC/USDT",
+        "ETH/USDT",
+        "DOGE/USDT",
+        "PEPE/USDT",
+        "SOL/USDT"
+      ],
+      "pair_blacklist": [
+        "BNB/.*"
+      ]
+    },
+  
+    "pairlists": [
+      {
+        "method": "StaticPairList"
+      }
+    ],
+  
+    "telegram": {
+      "enabled": true,
+      "token": "8109466612:AAHhVtoOTvmIiDfvOw_rtzkfQGxbS4G--n8",
+      "chat_id": "5135464683"
+    },
+  
+    "api_server": {
+      "enabled": true,
+      "listen_ip_address": "0.0.0.0",
+      "listen_port": 8080,
+      "verbosity": "error",
+      "enable_openapi": false,
+      "jwt_secret_key": "e1f9770800d10846de059511c2d5cd7266a1bf2f1bfc3c755fe25f6428e7e8ee",
+      "ws_token": "fIsKnlDwiDhi9YcwO6Wo0FAP03iBff0msw",
+      "CORS_origins": [],
+      "username": "freqtrader",
+      "password": "fraqtrader"
+    },
+  
+    "force_entry_enable": false,
+  
+    "internals": {
+      "process_throttle_secs": 5
+    }
+  }
+  

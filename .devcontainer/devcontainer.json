@@ -1,0 +1,31 @@
+{
+    "name": "Freqtrade DevContainer",
+    "image": "freqtradeorg/freqtrade:stable",  // Utilise l’image officielle Freqtrade
+  
+    "runArgs": [
+      "--cap-add=SYS_PTRACE",
+      "--security-opt",
+      "seccomp=unconfined"
+    ],
+  
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+  
+    "mounts": [
+      "source=${localWorkspaceFolder}/user_data,target=/freqtrade/user_data,type=bind"
+    ],
+  
+    "workspaceFolder": "/freqtrade",
+  
+    "postCreateCommand": "pip install --upgrade pip && pip install poetry && poetry install || true",
+  
+    "extensions": [
+      "ms-python.python",
+      "ms-azuretools.vscode-docker",
+      "VisualStudioExptTeam.vscodeintellicode"
+    ],
+  
+    "remoteUser": "root"
+  }
+  

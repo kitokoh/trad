@@ -1,0 +1,28 @@
+2025-05-20 10:15:14,288 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-05-20 10:15:14,292 - root - INFO - Logfile configured
+2025-05-20 10:15:14,296 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-05-20 10:15:14,695 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-05-20 10:15:14,705 - freqtrade.configuration.directory_operations - INFO - Created data directory: None
+2025-05-20 10:15:14,708 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2025-05-20 10:15:14,718 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-05-20 10:15:14,789 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2025-05-20 10:15:14,793 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-05-20 10:15:14,797 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-05-20 10:15:16,168 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2025-05-20 10:15:16,171 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2025-05-20 11:26:05,633 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-05-20 11:26:05,645 - root - INFO - Logfile configured
+2025-05-20 11:26:05,650 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-05-20 11:26:06,542 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-05-20 11:26:06,551 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2025-05-20 11:26:06,560 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-05-20 11:26:06,647 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2025-05-20 11:26:06,652 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-05-20 11:26:06,656 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-05-20 11:26:08,372 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2025-05-20 11:26:08,375 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2025-05-20 11:34:50,270 - freqtrade.rpc.api_server.webserver - ERROR - API Error calling: Bot is not in the correct state
+2025-05-20 11:34:50,281 - freqtrade.rpc.api_server.webserver - ERROR - API Error calling: Bot is not in the correct state
+2025-05-20 11:34:50,283 - freqtrade.rpc.api_server.webserver - ERROR - API Error calling: Bot is not in the correct state
+2025-05-20 11:34:50,288 - freqtrade.rpc.api_server.webserver - ERROR - API Error calling: Bot is not in the correct state
+2025-05-20 11:34:50,291 - freqtrade.rpc.api_server.webserver - ERROR - API Error calling: Bot is not in the correct state
